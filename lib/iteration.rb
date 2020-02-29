@@ -8,16 +8,6 @@ def join_ingredients(src)
   # As such, there should be a new String for each inner array, or pair
 # array_1 = [['pepperoni', 'sausage'], ['green olives', 'green peppers'], ['onions', 'pineapple']]
 
-customer_orders =[]
-
-row_index = 0
-
-while row_index < src.length do
-  inner_array = src[row_index]
-customer_orders << "I love #{inner_array[0]} and #{inner_array[1]} on my pizza"
-    row_index += 1
-  end
-  customer_orders
 end
 
 def find_greater_pair(src)
