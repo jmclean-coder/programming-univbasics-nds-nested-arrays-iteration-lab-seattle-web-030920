@@ -48,5 +48,6 @@ if inner_array % 2 == 0
   total += inner_array
   r_i += 1
 end
+end
 total
 end
