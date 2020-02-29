@@ -25,8 +25,8 @@ def find_greater_pair(src)
   greater_num = []
   r_i = 0
   while r_i < src.length do
-    inner = src[r_i]
-  greater_num << inner.max
+    inner_array = src[r_i]
+  greater_num << inner_array.max
   r_i += 1
   end
   greater_num
