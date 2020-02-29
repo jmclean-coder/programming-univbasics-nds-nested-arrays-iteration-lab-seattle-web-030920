@@ -44,7 +44,7 @@ total = []
 r_i = 0
 while r_i < src.length do
 inner_array = src[r_i]
-if inner_array % 2 == 0
+if inner_array[0] && inner_array[1] % 2 == 0
   total += inner_array
   r_i += 1
 end
