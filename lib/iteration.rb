@@ -40,4 +40,13 @@ def total_even_pairs(src)
   # As a reminder any number % 2 will return 0 or 1. If the result is 0, then
   # the number was even. Review the operator documentation if you've forgotten
   # this!
+total = []
+r_i = 0
+while r_i < src.length do
+inner_array = src[r_i]
+if inner_array % 2 == 0
+  total += inner_array
+  r_i += 1
+end
+total
 end
